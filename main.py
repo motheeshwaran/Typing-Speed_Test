@@ -1,19 +1,14 @@
 # Using Tkinter and what you have learnt about building GUI applications with Python,
-# build a desktop app that assesses your typing speed.
-# Give the user some sample text and detect how many words they can type per minute.
+# Gives the user how many words they can type per minute.
 #
 # The average typing speed is 40 words per minute. But with practice,
 # you can speed up to 100 words per minute.
 #
 # You can try out a web version here: https://typing-speed-test.aoeu.eu/
 #
-# If you have more time, you can build your typing speed test into a typing trainer,
-# with high scores and more text samples. You can design your program any way you want.
 from tkinter import *
 from PIL import ImageTk, Image
 
-
-#tex="Scolding is something common in student life Being a naughty boy I am\nalways scolded by my parents But one day I was severely scolded\nby my English teacher She infect teaches well But that day I could not\nresist the temptation that an adventure of Nancy Drew offered While she\nwas teaching I was completely engrossed some smugglers and it was\nthen when I felt a light tap on my bent head The teacher had caught me\nred handed She scolded me then and there and insulted me in front\nof the whole class I was embarrassed My cheeks burned being guilty\nconscious When the class was over I went to the teacher to apologize When\nshe saw that I had realized my mistake she cooled down and\nthen told me in a very kind manner how disheartening it\nwas when she found any student not paying attention I was genuinely sorry and promised to myself never to commit such a mistake again"
 tex="The journey of life may not always be smooth but we must keep going and\nstay positive all the times. Life is the most precious asset on this planet\nand must be protected irrespective of its form and appearance Every\nspecies not only humans, have a fundamental right to live their life, I\nwhatever way they desire Life is a gift of God to humanity and any attempt\nto disrupt or damage it will have undesirable consequences. Challenges\nare a part of life. We face different challenges at different points in life.\nWhile some people look at these challenges as an opportunity to learn \nsomething new others get disheartened \nand succumb to them. We learn many new things as we take \non different challenges."
 new_text = ""
 for i in tex:
